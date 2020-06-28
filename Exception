@@ -52,5 +52,6 @@ class MyArrayDataException extends RuntimeException{
 class MyArraySizeExeption extends RuntimeException{
     public MyArraySizeExeption() {
         super("wrong size");
+        
     }
 }
